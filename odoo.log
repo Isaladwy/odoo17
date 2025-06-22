@@ -13,3 +13,20 @@
 2025-06-22 08:14:17,516 87441 INFO ? odoo: addons paths: ['/home/isaladwy/Desktop/odoo17/odoo/addons', '/home/isaladwy/snap/code/197/.local/share/Odoo/addons/17.0', '/home/isaladwy/Desktop/odoo17/addons'] 
 2025-06-22 08:14:17,516 87441 INFO ? odoo: database: odoo@default:default 
 2025-06-22 08:14:17,519 87441 INFO ? odoo.sql_db: Connection to the database failed 
+2025-06-22 08:17:10,155 88450 INFO ? odoo: Odoo version 17.0 
+2025-06-22 08:17:10,156 88450 INFO ? odoo: Using configuration file at /home/isaladwy/Desktop/odoo17/odoo.conf 
+2025-06-22 08:17:10,156 88450 INFO ? odoo: addons paths: ['/home/isaladwy/Desktop/odoo17/odoo/addons', '/home/isaladwy/snap/code/197/.local/share/Odoo/addons/17.0', '/home/isaladwy/Desktop/odoo17/addons'] 
+2025-06-22 08:17:10,156 88450 INFO ? odoo: database: odoo@default:default 
+2025-06-22 08:18:10,888 88727 INFO ? odoo: Odoo version 17.0 
+2025-06-22 08:18:10,888 88727 INFO ? odoo: Using configuration file at /home/isaladwy/Desktop/odoo17/odoo.conf 
+2025-06-22 08:18:10,888 88727 INFO ? odoo: addons paths: ['/home/isaladwy/Desktop/odoo17/odoo/addons', '/home/isaladwy/snap/code/197/.local/share/Odoo/addons/17.0', '/home/isaladwy/Desktop/odoo17/addons'] 
+2025-06-22 08:18:10,888 88727 INFO ? odoo: database: odoo@default:default 
+2025-06-22 08:18:48,491 89102 INFO ? odoo: Odoo version 17.0 
+2025-06-22 08:18:48,491 89102 INFO ? odoo: Using configuration file at /home/isaladwy/Desktop/odoo17/odoo.conf 
+2025-06-22 08:18:48,491 89102 INFO ? odoo: addons paths: ['/home/isaladwy/Desktop/odoo17/odoo/addons', '/home/isaladwy/snap/code/197/.local/share/Odoo/addons/17.0', '/home/isaladwy/Desktop/odoo17/addons'] 
+2025-06-22 08:18:48,491 89102 INFO ? odoo: database: odoo@default:default 
+2025-06-22 08:20:39,990 89450 INFO ? odoo: Odoo version 17.0 
+2025-06-22 08:20:39,990 89450 INFO ? odoo: Using configuration file at /home/isaladwy/Desktop/odoo17/odoo.conf 
+2025-06-22 08:20:39,990 89450 INFO ? odoo: addons paths: ['/home/isaladwy/Desktop/odoo17/odoo/addons', '/home/isaladwy/snap/code/197/.local/share/Odoo/addons/17.0', '/home/isaladwy/Desktop/odoo17/addons'] 
+2025-06-22 08:20:39,990 89450 INFO ? odoo: database: odoo@default:default 
+2025-06-22 08:20:39,994 89450 INFO ? odoo.sql_db: Connection to the database failed 
