@@ -689,7 +689,8 @@ class ConnectionPool(object):
                 raise PoolError('The Connection Pool Is Full')
 
         try:
-            result = psycopg2.connect(
+            result =             db_user = odoo
+            db_password = yourpasswordpsycopg2.connect(
                 connection_factory=PsycoConnection,
                 **connection_info)
         except psycopg2.Error:
