@@ -327,3 +327,45 @@
 2025-06-22 08:32:50,789 92250 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Base: Auto-vacuum internal data` (0.037s). 
 2025-06-22 08:32:50,798 92250 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `Base: Portal Users Deletion`. 
 2025-06-22 08:32:50,799 92250 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Base: Portal Users Deletion` (0.001s). 
+2025-06-22 08:34:57,103 94384 INFO ? odoo: Odoo version 17.0 
+2025-06-22 08:34:57,103 94384 INFO ? odoo: Using configuration file at /home/isaladwy/Desktop/odoo17/odoo.conf 
+2025-06-22 08:34:57,103 94384 INFO ? odoo: addons paths: ['/home/isaladwy/Desktop/odoo17/odoo/addons', '/home/isaladwy/snap/code/197/.local/share/Odoo/addons/17.0', '/home/isaladwy/Desktop/odoo17/addons'] 
+2025-06-22 08:34:57,103 94384 INFO ? odoo: database: odoo@default:default 
+2025-06-22 08:34:57,171 94384 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2025-06-22 08:34:57,292 94384 INFO ? odoo.service.server: HTTP service (werkzeug) running on isaladwy-Linux:8069 
+2025-06-22 08:34:57,299 94384 INFO odoo17 odoo.modules.loading: loading 1 modules... 
+2025-06-22 08:34:57,303 94384 INFO odoo17 odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-06-22 08:34:57,306 94384 INFO odoo17 odoo.modules.loading: loading 11 modules... 
+2025-06-22 08:34:57,340 94384 INFO odoo17 odoo.modules.loading: 11 modules loaded in 0.03s, 0 queries (+0 extra) 
+2025-06-22 08:34:57,354 94384 INFO odoo17 odoo.modules.loading: Modules loaded. 
+2025-06-22 08:34:57,356 94384 INFO odoo17 odoo.modules.registry: Registry loaded in 0.064s 
+2025-06-22 08:35:40,903 94384 INFO odoo17 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-06-22 08:35:40,912 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:40] "GET / HTTP/1.1" 303 - 7 0.002 0.009
+2025-06-22 08:35:41,000 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:41] "GET /web HTTP/1.1" 200 - 71 0.015 0.065
+2025-06-22 08:35:41,227 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:41] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 4 0.001 0.003
+2025-06-22 08:35:41,262 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:41] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.006 0.011
+2025-06-22 08:35:41,268 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:41] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.004 0.010
+2025-06-22 08:35:41,269 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:41] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.010
+2025-06-22 08:35:41,400 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:41] "POST /web/action/load HTTP/1.1" 200 - 10 0.003 0.153
+2025-06-22 08:35:41,450 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:41] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 48 0.011 0.025
+2025-06-22 08:35:41,464 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:41] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.003
+2025-06-22 08:35:41,485 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:41] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.011 0.013
+2025-06-22 08:35:41,485 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:41] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.020
+2025-06-22 08:35:41,573 94384 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-06-22 08:35:43,180 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:43] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2025-06-22 08:35:51,907 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:51] "POST /web/action/load HTTP/1.1" 200 - 8 0.002 0.005
+2025-06-22 08:35:51,932 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:51] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 7 0.002 0.008
+2025-06-22 08:35:51,954 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:51] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 26 0.004 0.009
+2025-06-22 08:35:51,980 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:51] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.001 0.002
+2025-06-22 08:35:51,985 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:51] "POST /base_setup/data HTTP/1.1" 200 - 6 0.001 0.002
+2025-06-22 08:35:52,000 94384 INFO ? werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:52] "GET /base/static/description/settings.png HTTP/1.1" 200 - 0 0.000 0.001
+2025-06-22 08:35:52,013 94384 INFO ? werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:52] "GET /base_setup/static/src/img/google_play.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-06-22 08:35:52,013 94384 INFO ? werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:52] "GET /base_setup/static/src/img/app_store.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-06-22 08:35:55,534 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:55] "POST /web/dataset/call_kw/res.config.settings/web_save HTTP/1.1" 200 - 26 0.005 0.016
+2025-06-22 08:35:55,549 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:55] "POST /web/action/load HTTP/1.1" 200 - 11 0.002 0.006
+2025-06-22 08:35:55,590 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:55] "POST /web/dataset/call_kw/res.users/get_views HTTP/1.1" 200 - 44 0.008 0.028
+2025-06-22 08:35:55,605 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:55] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.002
+2025-06-22 08:35:55,611 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:55] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 15 0.003 0.007
+2025-06-22 08:35:59,684 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.003
+2025-06-22 08:35:59,702 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 36 0.009 0.011
+2025-06-22 08:35:59,705 94384 INFO odoo17 werkzeug: 127.0.0.1 - - [22/Jun/2025 08:35:59] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.019
