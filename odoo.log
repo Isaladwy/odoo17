@@ -3217,3 +3217,33 @@ psycopg2.OperationalError: connection to server on socket "/var/run/postgresql/.
 2025-06-23 11:15:38,527 81235 INFO odoo17 werkzeug: 127.0.0.1 - - [23/Jun/2025 11:15:38] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.001 0.004
 2025-06-23 11:15:38,548 81235 INFO odoo17 werkzeug: 127.0.0.1 - - [23/Jun/2025 11:15:38] "POST /mail/inbox/messages HTTP/1.1" 200 - 4 0.002 0.003
 2025-06-23 11:15:40,082 81235 INFO odoo17 werkzeug: 127.0.0.1 - - [23/Jun/2025 11:15:40] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.002
+2025-06-23 11:27:22,249 81235 WARNING odoo17 odoo.service.server: Thread <Thread(odoo.service.http.request.124259021059776, started 124259021059776)> virtual real time limit (129/120s) reached. 
+2025-06-23 11:27:22,249 81235 INFO odoo17 odoo.service.server: Dumping stacktrace of limit exceeding threads before reloading 
+2025-06-23 11:27:22,256 81235 INFO odoo17 odoo.tools.misc: 
+# Thread: <Thread(odoo.service.http.request.124259021059776, started 124259021059776)> (db:n/a) (uid:n/a) (url:n/a) (qc:n/a qt:n/a pt:n/a)
+File: "/home/isaladwy/.cursor/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydev_bundle/pydev_monkey.py", line 1131, in __call__
+  ret = self.original_func(*self.args, **self.kwargs)
+File: "/usr/lib/python3.12/threading.py", line 1030, in _bootstrap
+  self._bootstrap_inner()
+File: "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+  self.run()
+File: "/usr/lib/python3.12/threading.py", line 1010, in run
+  self._target(*self._args, **self._kwargs)
+File: "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+  self.finish_request(request, client_address)
+File: "/usr/lib/python3.12/socketserver.py", line 362, in finish_request
+  self.RequestHandlerClass(request, client_address, self)
+File: "/home/isaladwy/Desktop/odoo17/odoo/service/server.py", line 127, in __init__
+  super().__init__(*args, **kwargs)
+File: "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+  self.handle()
+File: "/home/isaladwy/Desktop/odoo17/.venv/lib/python3.12/site-packages/werkzeug/serving.py", line 390, in handle
+  super().handle()
+File: "/usr/lib/python3.12/http/server.py", line 436, in handle
+  self.handle_one_request()
+File: "/usr/lib/python3.12/http/server.py", line 404, in handle_one_request
+  self.raw_requestline = self.rfile.readline(65537)
+File: "/usr/lib/python3.12/socket.py", line 707, in readinto
+  return self._sock.recv_into(b) 
+2025-06-23 11:27:22,256 81235 INFO odoo17 odoo.service.server: Initiating server reload 
+2025-06-23 11:27:22,429 81235 INFO odoo17 odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 4 connections  
