@@ -3,7 +3,8 @@
     'author': 'Islam Aladwy',
     'category': '',
     'version': '17.0.0.1.0',
-    'depends': ['base'],
+    'depends': ['base',
+    ],
     'data': [],
     'application': True,
 }
