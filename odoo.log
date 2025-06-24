@@ -3247,3 +3247,153 @@ File: "/usr/lib/python3.12/socket.py", line 707, in readinto
   return self._sock.recv_into(b) 
 2025-06-23 11:27:22,256 81235 INFO odoo17 odoo.service.server: Initiating server reload 
 2025-06-23 11:27:22,429 81235 INFO odoo17 odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 4 connections  
+2025-06-24 12:46:21,395 45076 INFO ? odoo: Odoo version 17.0 
+2025-06-24 12:46:21,395 45076 INFO ? odoo: Using configuration file at /home/isaladwy/Desktop/odoo17/odoo.conf 
+2025-06-24 12:46:21,395 45076 INFO ? odoo: addons paths: ['/home/isaladwy/Desktop/odoo17/odoo/addons', '/home/isaladwy/snap/code/197/.local/share/Odoo/addons/17.0', '/home/isaladwy/Desktop/odoo17/addons'] 
+2025-06-24 12:46:21,395 45076 INFO ? odoo: database: odoo@default:default 
+2025-06-24 12:46:21,471 45076 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2025-06-24 12:46:21,605 45076 INFO ? odoo.service.server: HTTP service (werkzeug) running on isaladwy-Linux:8069 
+2025-06-24 12:46:21,627 45076 INFO odoo17 odoo.modules.loading: loading 1 modules... 
+2025-06-24 12:46:21,630 45076 INFO odoo17 odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-06-24 12:46:21,648 45076 INFO odoo17 odoo.modules.loading: loading 64 modules... 
+2025-06-24 12:46:21,971 45076 INFO odoo17 odoo.modules.loading: 64 modules loaded in 0.32s, 0 queries (+0 extra) 
+2025-06-24 12:46:22,038 45076 INFO odoo17 odoo.modules.loading: Modules loaded. 
+2025-06-24 12:46:22,043 45076 INFO odoo17 odoo.modules.registry: Registry loaded in 0.438s 
+2025-06-24 12:46:27,707 45076 INFO odoo17 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-06-24 12:46:27,725 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:27] "GET / HTTP/1.1" 303 - 7 0.007 0.017
+2025-06-24 12:46:27,881 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:27] "GET /web HTTP/1.1" 200 - 73 0.052 0.098
+2025-06-24 12:46:28,321 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:28] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.003 0.007
+2025-06-24 12:46:28,326 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:28] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 4 0.002 0.011
+2025-06-24 12:46:28,363 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:28] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.000 0.006
+2025-06-24 12:46:28,384 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:28] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.012 0.011
+2025-06-24 12:46:28,386 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:28] "POST /mail/init_messaging HTTP/1.1" 200 - 57 0.045 0.027
+2025-06-24 12:46:28,420 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:28] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.004 0.006
+2025-06-24 12:46:28,599 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:28] "POST /web/action/load HTTP/1.1" 200 - 6 0.007 0.232
+2025-06-24 12:46:28,625 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:28] "POST /mail/inbox/messages HTTP/1.1" 200 - 7 0.002 0.003
+2025-06-24 12:46:28,626 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:28] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 30 0.028 0.242
+2025-06-24 12:46:28,735 45076 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-06-24 12:46:30,160 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:30] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.001
+2025-06-24 12:46:30,994 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:30] "POST /web/dataset/call_kw/discuss.channel/channel_fetch_preview HTTP/1.1" 200 - 33 0.012 0.010
+2025-06-24 12:46:31,463 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:31] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 11 0.002 0.008
+2025-06-24 12:46:33,198 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:33] "GET /web/session/logout HTTP/1.1" 303 - 9 0.002 0.011
+2025-06-24 12:46:33,202 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:33] "GET /web HTTP/1.1" 303 - 1 0.000 0.001
+2025-06-24 12:46:33,266 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:33] "GET /web/login HTTP/1.1" 200 - 46 0.008 0.054
+2025-06-24 12:46:33,294 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:33] "GET /web/binary/company_logo HTTP/1.1" 304 - 2 0.002 0.006
+2025-06-24 12:46:34,858 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:34] "GET /web/service-worker.js HTTP/1.1" 200 - 3 0.001 0.002
+2025-06-24 12:46:34,874 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:46:34] "GET /web/offline HTTP/1.1" 200 - 7 0.001 0.006
+2025-06-24 12:47:04,363 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:47:04] "GET /web/service-worker.js HTTP/1.1" 200 - 2 0.000 0.001
+2025-06-24 12:47:22,120 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2025-06-24 12:47:22,154 45076 INFO odoo17 odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-06-24 12:47:22,181 45076 INFO odoo17 odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-06-24 12:47:22,189 45076 INFO odoo17 odoo.models.unlink: User #1 deleted base.module.update records with IDs: [1] 
+2025-06-24 12:47:22,194 45076 INFO odoo17 odoo.models.unlink: User #1 deleted base.module.uninstall records with IDs: [1] 
+2025-06-24 12:47:22,199 45076 INFO odoo17 odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2025-06-24 12:47:22,205 45076 INFO odoo17 odoo.models.unlink: User #1 deleted bus.bus records with IDs: [79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91] 
+2025-06-24 12:47:22,209 45076 INFO odoo17 odoo.models.unlink: User #1 deleted bus.presence records with IDs: [2] 
+2025-06-24 12:47:22,256 45076 INFO odoo17 odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-06-24 12:47:22,302 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Base: Auto-vacuum internal data` (0.182s). 
+2025-06-24 12:47:22,305 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `Sales: Send pending emails`. 
+2025-06-24 12:47:22,307 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Sales: Send pending emails` (0.002s). 
+2025-06-24 12:47:22,309 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2025-06-24 12:47:22,399 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Digest Emails` (0.089s). 
+2025-06-24 12:47:22,402 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete: Sync with remote DB`. 
+2025-06-24 12:47:22,403 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Partner Autocomplete: Sync with remote DB` (0.001s). 
+2025-06-24 12:47:22,406 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2025-06-24 12:47:22,407 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `SMS: SMS Queue Manager` (0.001s). 
+2025-06-24 12:47:22,410 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2025-06-24 12:47:22,412 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Snailmail: process letters queue` (0.002s). 
+2025-06-24 12:47:22,414 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2025-06-24 12:47:22,421 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Mail: Email Queue Manager` (0.007s). 
+2025-06-24 12:47:22,424 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `Account: Post draft entries with auto_post enabled and accounting date up to today`. 
+2025-06-24 12:47:22,432 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Account: Post draft entries with auto_post enabled and accounting date up to today` (0.008s). 
+2025-06-24 12:47:22,434 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2025-06-24 12:47:22,436 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Notification: Send scheduled message notifications` (0.002s). 
+2025-06-24 12:47:22,438 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2025-06-24 12:47:22,440 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Notification: Delete Notifications older than 6 Month` (0.002s). 
+2025-06-24 12:47:22,442 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `Mail: send web push notification`. 
+2025-06-24 12:47:22,443 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Mail: send web push notification` (0.001s). 
+2025-06-24 12:47:22,445 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `Discuss: channel member unmute`. 
+2025-06-24 12:47:22,447 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Discuss: channel member unmute` (0.001s). 
+2025-06-24 12:47:22,449 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2025-06-24 12:47:22,452 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Users: Notify About Unregistered Users` (0.003s). 
+2025-06-24 12:47:22,454 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2025-06-24 12:47:22,457 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Calendar: Event Reminder` (0.003s). 
+2025-06-24 12:47:22,459 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2025-06-24 12:47:22,461 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `CRM: enrich leads (IAP)` (0.002s). 
+2025-06-24 12:47:22,463 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `Send invoices automatically`. 
+2025-06-24 12:47:22,465 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Send invoices automatically` (0.001s). 
+2025-06-24 12:47:22,467 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Starting job `Base: Portal Users Deletion`. 
+2025-06-24 12:47:22,468 45076 INFO odoo17 odoo.addons.base.models.ir_cron: Job done: `Base: Portal Users Deletion` (0.001s). 
+2025-06-24 12:57:02,059 45076 INFO odoo17 odoo.addons.base.models.res_users: Login successful for db:odoo17 login:admin from 127.0.0.1 
+2025-06-24 12:57:02,063 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:02] "POST /web/login HTTP/1.1" 303 - 25 0.009 0.269
+2025-06-24 12:57:02,074 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:02] "GET /web HTTP/1.1" 200 - 11 0.002 0.006
+2025-06-24 12:57:02,195 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:02] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.001 0.003
+2025-06-24 12:57:02,212 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:02] "POST /mail/init_messaging HTTP/1.1" 200 - 34 0.006 0.011
+2025-06-24 12:57:02,217 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:02] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 11 0.002 0.006
+2025-06-24 12:57:02,275 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:02] "POST /web/action/load HTTP/1.1" 200 - 6 0.005 0.006
+2025-06-24 12:57:02,277 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:02] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.006 0.007
+2025-06-24 12:57:02,284 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:02] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.004
+2025-06-24 12:57:02,285 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:02] "POST /mail/load_message_failures HTTP/1.1" 200 - 9 0.007 0.012
+2025-06-24 12:57:02,290 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:02] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.001 0.004
+2025-06-24 12:57:02,335 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:02] "POST /mail/inbox/messages HTTP/1.1" 200 - 4 0.002 0.003
+2025-06-24 12:57:03,898 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:03] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.001
+2025-06-24 12:57:03,908 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:03] "GET /web/offline HTTP/1.1" 200 - 2 0.000 0.002
+2025-06-24 12:57:06,308 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:06] "GET /web/session/logout HTTP/1.1" 303 - 3 0.000 0.003
+2025-06-24 12:57:06,312 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:06] "GET /web HTTP/1.1" 303 - 1 0.000 0.001
+2025-06-24 12:57:06,323 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:06] "GET /web/login HTTP/1.1" 200 - 4 0.001 0.006
+2025-06-24 12:57:06,345 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:06] "GET /web/binary/company_logo HTTP/1.1" 304 - 2 0.000 0.004
+2025-06-24 12:57:07,921 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:07] "GET /web/service-worker.js HTTP/1.1" 200 - 2 0.000 0.001
+2025-06-24 12:57:07,932 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 12:57:07] "GET /web/offline HTTP/1.1" 200 - 3 0.000 0.002
+2025-06-24 13:00:27,921 45076 INFO odoo17 odoo.addons.base.models.res_users: Login successful for db:odoo17 login:admin from 127.0.0.1 
+2025-06-24 13:00:27,923 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:27] "POST /web/login HTTP/1.1" 303 - 19 0.004 0.264
+2025-06-24 13:00:27,935 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:27] "GET /web HTTP/1.1" 200 - 11 0.002 0.006
+2025-06-24 13:00:28,054 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:28] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 304 - 3 0.001 0.002
+2025-06-24 13:00:28,072 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:28] "POST /mail/init_messaging HTTP/1.1" 200 - 34 0.005 0.011
+2025-06-24 13:00:28,077 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:28] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 11 0.002 0.006
+2025-06-24 13:00:28,138 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:28] "POST /web/action/load HTTP/1.1" 200 - 6 0.005 0.008
+2025-06-24 13:00:28,140 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:28] "POST /mail/load_message_failures HTTP/1.1" 200 - 9 0.009 0.006
+2025-06-24 13:00:28,142 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:28] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.008 0.009
+2025-06-24 13:00:28,143 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:28] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.004
+2025-06-24 13:00:28,161 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:28] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.002 0.005
+2025-06-24 13:00:28,189 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:28] "POST /mail/inbox/messages HTTP/1.1" 200 - 4 0.001 0.002
+2025-06-24 13:00:29,715 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:29] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.001
+2025-06-24 13:00:29,728 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:29] "GET /web/offline HTTP/1.1" 200 - 2 0.000 0.002
+2025-06-24 13:00:33,317 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:33] "POST /web/action/load HTTP/1.1" 200 - 12 0.005 0.008
+2025-06-24 13:00:33,334 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:33] "POST /web/action/run HTTP/1.1" 200 - 20 0.005 0.007
+2025-06-24 13:00:33,391 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:33] "POST /web/dataset/call_kw/crm.lead/get_views HTTP/1.1" 200 - 75 0.014 0.032
+2025-06-24 13:00:33,407 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:33] "POST /web/dataset/call_kw/crm.lead/read_progress_bar HTTP/1.1" 200 - 3 0.004 0.004
+2025-06-24 13:00:33,407 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:33] "POST /web/dataset/call_kw/crm.lead/web_read_group HTTP/1.1" 200 - 5 0.003 0.005
+2025-06-24 13:00:33,449 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:33] "POST /web/dataset/call_kw/crm.lead/web_search_read HTTP/1.1" 200 - 22 0.022 0.014
+2025-06-24 13:00:33,449 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:33] "POST /web/dataset/call_kw/crm.lead/web_search_read HTTP/1.1" 200 - 17 0.023 0.015
+2025-06-24 13:00:33,451 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:33] "POST /web/dataset/call_kw/crm.lead/web_search_read HTTP/1.1" 200 - 20 0.025 0.014
+2025-06-24 13:00:33,452 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:33] "POST /web/dataset/call_kw/crm.lead/web_search_read HTTP/1.1" 200 - 18 0.025 0.015
+2025-06-24 13:00:33,486 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:33] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.001
+2025-06-24 13:00:33,524 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:00:33] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 304 - 9 0.003 0.009
+2025-06-24 13:01:49,804 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:01:49] "POST /web/action/load HTTP/1.1" 200 - 9 0.006 0.006
+2025-06-24 13:01:49,838 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:01:49] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 40 0.007 0.016
+2025-06-24 13:01:49,848 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:01:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.002
+2025-06-24 13:01:49,860 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:01:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.007 0.007
+2025-06-24 13:01:49,868 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:01:49] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.020
+2025-06-24 13:01:55,755 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:01:55] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.006 0.007
+2025-06-24 13:01:55,776 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:01:55] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.015
+2025-06-24 13:01:57,065 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:01:57] "POST /web/dataset/call_kw/discuss.channel/channel_fetch_preview HTTP/1.1" 200 - 33 0.004 0.008
+2025-06-24 13:01:58,045 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:01:58] "POST /web/dataset/call_kw/res.partner/get_views HTTP/1.1" 200 - 64 0.018 0.041
+2025-06-24 13:01:58,067 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:01:58] "POST /web/dataset/call_kw/res.partner/web_search_read HTTP/1.1" 200 - 23 0.006 0.010
+2025-06-24 13:01:58,108 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:01:58] "GET /web/image?model=res.partner&field=avatar_128&id=33&unique=1750603122000 HTTP/1.1" 200 - 7 0.009 0.006
+2025-06-24 13:01:58,108 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:01:58] "GET /web/image?model=res.partner&field=avatar_128&id=27&unique=1750603122000 HTTP/1.1" 200 - 7 0.008 0.007
+2025-06-24 13:01:58,108 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:01:58] "GET /web/image?model=res.partner&field=avatar_128&id=14 HTTP/1.1" 200 - 7 0.009 0.007
+2025-06-24 13:02:00,119 45076 INFO ? werkzeug: 127.0.0.1 - - [24/Jun/2025 13:02:00] "GET /mail/static/src/img/smiley/avatar.jpg HTTP/1.1" 200 - 0 0.000 0.002
+2025-06-24 13:02:00,132 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:02:00] "POST /mail/thread/messages HTTP/1.1" 200 - 24 0.004 0.012
+2025-06-24 13:02:00,182 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:02:00] "GET /web/image?field=avatar_128&id=3&model=res.partner&unique=2025-06-22%2014:38:53 HTTP/1.1" 200 - 8 0.004 0.006
+2025-06-24 13:02:00,182 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:02:00] "GET /web/image?field=avatar_128&id=7&model=res.partner HTTP/1.1" 200 - 8 0.004 0.007
+2025-06-24 13:02:01,993 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:02:01] "POST /web/dataset/call_kw/discuss.channel/channel_fold HTTP/1.1" 200 - 12 0.003 0.015
+2025-06-24 13:02:02,003 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:02:02] "POST /discuss/channel/set_last_seen_message HTTP/1.1" 200 - 21 0.009 0.013
+2025-06-24 13:02:02,004 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:02:02] "POST /discuss/channel/messages HTTP/1.1" 200 - 32 0.008 0.013
+2025-06-24 13:02:02,043 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:02:02] "GET /discuss/channel/1/partner/2/avatar_128?unique=2025-06-22%2014:38:53 HTTP/1.1" 200 - 10 0.003 0.007
+2025-06-24 13:02:02,043 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:02:02] "GET /discuss/channel/1/partner/7/avatar_128 HTTP/1.1" 200 - 9 0.004 0.005
+2025-06-24 13:02:03,592 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:02:03] "POST /web/dataset/call_kw/res.partner/web_search_read HTTP/1.1" 200 - 22 0.004 0.011
+2025-06-24 13:02:05,521 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:02:05] "POST /web/dataset/call_kw/discuss.channel/channel_fold HTTP/1.1" 200 - 8 0.001 0.011
+2025-06-24 13:02:06,463 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:02:06] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 11 0.003 0.006
+2025-06-24 13:02:09,667 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:02:09] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.002
+2025-06-24 13:02:09,679 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:02:09] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 38 0.007 0.008
+2025-06-24 13:02:09,682 45076 INFO odoo17 werkzeug: 127.0.0.1 - - [24/Jun/2025 13:02:09] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.015
