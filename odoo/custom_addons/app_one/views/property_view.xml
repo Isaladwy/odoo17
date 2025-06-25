@@ -1,0 +1,10 @@
+<odoo>
+<record id='property_action' model='ir.actions.act_window'>
+
+</record>
+   <menuitem id='property_menu_item'
+   name='Properties'
+   parent='properties_menu'
+   action='action_property'
+   />
+</odoo>
