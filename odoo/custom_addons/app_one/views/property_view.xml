@@ -1,10 +1,24 @@
 <odoo>
-<record id='property_action' model='ir.actions.act_window'>
-
-</record>
-   <menuitem id='property_menu_item'
-   name='Properties'
-   parent='properties_menu'
-   action='action_property'
+   <record id='property_view_tree' model='ir.ui.view'>
+      <field name='name'>property tree</field>
+      <field name='model'>property</field>
+      <field name='arch' type='xml'>
+         <tree>
+            <field name='name' />
+            <field name='date_availability' />
+            <field name='selling_price' />
+            <field name='garden' />
+         </tree>
+      </field>
+   </record>
+   <record id='property_action' model='ir.actions.act_window'>
+      <field name='name'>property</field>
+      <field name='res_model'>property</field>
+   </record>
+   <menuitem
+      id='property_menu_item'
+      name='Properties'
+      parent='properties_menu'
+      action='property_action'
    />
 </odoo>
